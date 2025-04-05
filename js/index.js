@@ -8,5 +8,5 @@ setInterval(()=>{
     let hours = Math.floor(time_elapsed_in_seconds/3600);
     let minutes = Math.floor((time_elapsed_in_seconds%3600)/60);
     let seconds = Math.floor(time_elapsed_in_seconds%(3600*60));
-    timer_block.innerText = `${hours}hrs: ${minutes}mins: ${seconds}secs`
+    timer_block.innerText = `${hours}hours: ${minutes}minutes: ${seconds}seconds`
 },1000);
